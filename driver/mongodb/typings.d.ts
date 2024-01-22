@@ -4378,14 +4378,14 @@ export declare class Cursor<T> extends Readable {
      * @param filter The filter object used for the cursor.
      * @see http://mongodb.github.io/node-mongodb-native/2.1/api/Cursor.html#filter
      */
-    filter(filter: Object): Cursor<T>;
+   // filter(filter: Object): Cursor<T>;
     /**
      * Iterates over all the documents for this cursor using the iterator, callback pattern.
      * @param iterator The iteration callback.
      * @param callback The end callback.
      * @see http://mongodb.github.io/node-mongodb-native/2.1/api/Cursor.html#forEach
      */
-    forEach(iterator: IteratorCallback<T>, callback: EndCallback): void;
+   // forEach(iterator: IteratorCallback<T>, callback: EndCallback): void;
     /**
      * Check if there is any document still available in the cursor.
      * @see http://mongodb.github.io/node-mongodb-native/2.1/api/Cursor.html#hasNext
@@ -4419,7 +4419,7 @@ export declare class Cursor<T> extends Readable {
      * @param transform The mapping transformation method.
      * @see http://mongodb.github.io/node-mongodb-native/2.1/api/Cursor.html#map
      */
-    map(transform: Function): Cursor<T>;
+   // map(transform: Function): Cursor<T>;
     /**
      * Set the cursor max.
      * @param max Specify a $max value to specify the exclusive upper bound for a specific index in
